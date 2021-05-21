@@ -90,7 +90,7 @@ function draw() {
 }
 
 function spawnStones(){
-  if(frameCount % 150 === 0){
+  if(frameCount % 80 === 0){
    asteroids = createSprite(100,10,10,10);
    asteroids.x = Math.round(random(50,1150));
    asteroids.velocityY = 6;
